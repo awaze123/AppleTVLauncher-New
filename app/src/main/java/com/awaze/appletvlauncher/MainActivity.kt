@@ -24,11 +24,11 @@ class MainActivity : Activity() {
 
     data class AppItem(val title: String, val pkg: String, val symbol: String, val c1: Int, val c2: Int)
     private val apps = listOf(
-        AppItem("YouTube", "com.google.android.youtube.tv", "▶", Color.rgb(250, 40, 55), Color.rgb(130, 0, 15)),
-        AppItem("Fastway Live TV", "com.fastway.fastwaylivetv", "TV", Color.rgb(44, 115, 235), Color.rgb(20, 40, 115)),
-        AppItem("NetMirror", "app.netmirror.newtv", "N", Color.rgb(120, 78, 220), Color.rgb(48, 24, 100)),
-        AppItem("Hotstar", "in.startv.hotstar", "✦", Color.rgb(40, 120, 245), Color.rgb(15, 30, 100))
-    )
+    AppItem("YouTube", "com.google.android.youtube.tv", "▶", Color.rgb(250, 40, 55), Color.rgb(130, 0, 15)),
+    AppItem("NetMirror TV", "app.netmirror.newtv", "N", Color.rgb(120, 78, 220), Color.rgb(48, 24, 100)),
+    AppItem("Cricfy TV", "app.cricfy.tv", "C", Color.rgb(44, 115, 235), Color.rgb(20, 40, 115)),
+    AppItem("JioHotstar", "in.startv.hotstar", "✦", Color.rgb(40, 120, 245), Color.rgb(15, 30, 100))
+)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
